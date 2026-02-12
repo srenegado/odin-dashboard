@@ -169,7 +169,7 @@ a {
   gap: 32px;
   font-size: 22px;
   font-weight: 900;
-  padding: 48px 0 48px 16px;
+  padding: 48px 48px 48px 16px;
 }
 
 .projects {
@@ -192,11 +192,8 @@ a {
   flex-direction: column;
 }
 
-.content-title {
-  margin-bottom: 16px;
-}
-
 .project-card-container {
+  margin-top: 16px;
   flex: 1;
   width: 100%;
   display: grid;
@@ -233,4 +230,52 @@ a {
   gap: 32px;
   justify-content: right;
   padding-right: 32px;
+}
+
+.card {
+  margin-top: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px 32px;
+  filter: drop-shadow(1px 2px 2px #00000025);
+}
+
+.announcement-title {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.card p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #808080;
+  margin: 0; 
+}
+
+.announcement {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #cecece;
+}
+
+#last-announcement {
+  border: 0;
+}
+
+.other-user-project {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.other-user-info span {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.other-user-info p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #808080;
 }
