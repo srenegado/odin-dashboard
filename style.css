@@ -117,3 +117,45 @@ body {
   grid-column: 1 / 2;
   background-color: #3c8deb;
 }
+
+.brand-container {
+  padding: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+  margin-bottom: 72px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  padding-left: 24px;
+}
+
+.nav-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+#communities-item {
+  margin-bottom: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.nav-icon,
+.brand-logo {
+  filter: invert();
+}
